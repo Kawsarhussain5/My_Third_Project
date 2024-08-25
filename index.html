@@ -5,11 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gdgrd</title>
     <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!--- daisy ui   -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--- font awosame -->
+    <script src="https://kit.fontawesome.com/00998b675a.js" crossorigin="anonymous"></script>
+  <!---  tailwind -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+          fontfamily:{
+            Manrope :' Manrope',
+          } ,
+        },
+      },
+    }
+  </script>
 
-    <!---   -->
-    <!---  -->
+
 </head>
-<body>
-    <h1>Tasting...</h1>
+<body class="font-manrope">
+   
+ <header>
+  <nav class="container mx-auto">
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <a href=""><i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] p-1 rounded-full"></i></a>
+        <a class=" text-3xl font-extrabold">Rinterio</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 text-gray-500">
+          <li class="font-extrabold text-black"><a href="">Home</a></li>
+          <li><a href=""> Services</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class=" navbar-end gap-7 hidden lg:flex">
+        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        <a class="btn  bg-[#abef5f] text-black rounded-full px-5 text-xl font-bold border-none">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 p-1 bg-black text-white rounded-full"></i></a>
+      </div>
+      <li class="navbar-end lg:hidden"><i class="fa-solid fa-bars"></i></li>
+    </div>
+
+
+  </nav>
+
+ <div class="container">
+  <!--banner section -->
+  <div class="flex justify-center space-y-7 px-6">
+    <!---banner image-->
+    <img src="assets/banner.png" alt="">
+  </div>
+  <div class="space-y-7 flex justify-center items-center flex-col">
+    <h1 class="text-6xl w-3/4 font-bold text-center mx-auto">A barn house of this design has a striking appearance</h1>
+    <p class="text-lg font-medium text-gray-500 w-3/4 text-center mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+    <!-- banner-btn-->
+    <button class="btn btn-secondary bg-[#b7ee77] text-black rounded-full px-5 text-xl font-bold border-none mx-auto"> View Details<i class="fa-solid fa-arrow-right -rotate-45 bg-[#86c93a] p-1 rounded-full"></i></button>
+  </div>
+ </div>
+ </header>
+<!-- service list-->
+<div class="flex justify-center items-center">
+<!-- service card-->
+ 
+
+
+</div>
+
+
+
+
+
+
+
 </body>
 </html>
